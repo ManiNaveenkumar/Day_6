@@ -1,0 +1,175 @@
+$date
+	Sat Aug 02 14:49:54 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_paralsub $end
+$var wire 4 ! diff [3:0] $end
+$var wire 1 " bor $end
+$var reg 4 # a [3:0] $end
+$var reg 4 $ b [3:0] $end
+$scope module uut $end
+$var wire 4 % a [3:0] $end
+$var wire 4 & b [3:0] $end
+$var wire 4 ' nb [3:0] $end
+$var wire 4 ( diff [3:0] $end
+$var wire 3 ) bw [2:0] $end
+$var wire 1 " bor $end
+$scope module s1 $end
+$var wire 1 * a $end
+$var wire 1 + b $end
+$var wire 1 , bor $end
+$var wire 1 - c $end
+$var wire 1 . diff $end
+$upscope $end
+$scope module s2 $end
+$var wire 1 / a $end
+$var wire 1 0 b $end
+$var wire 1 1 bor $end
+$var wire 1 2 c $end
+$var wire 1 3 diff $end
+$upscope $end
+$scope module s3 $end
+$var wire 1 4 a $end
+$var wire 1 5 b $end
+$var wire 1 6 bor $end
+$var wire 1 7 c $end
+$var wire 1 8 diff $end
+$upscope $end
+$scope module s4 $end
+$var wire 1 9 a $end
+$var wire 1 : b $end
+$var wire 1 " bor $end
+$var wire 1 ; c $end
+$var wire 1 < diff $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+x<
+x;
+x:
+x9
+x8
+x7
+x6
+x5
+x4
+x3
+x2
+x1
+x0
+x/
+x.
+1-
+x,
+x+
+x*
+bx )
+bx (
+bx '
+bx &
+bx %
+bx $
+bx #
+x"
+bx !
+$end
+#10
+1<
+1;
+16
+08
+17
+11
+0"
+0.
+b1000 !
+b1000 (
+03
+12
+b111 )
+1,
+0+
+10
+15
+0:
+b110 '
+1*
+0/
+04
+09
+b1001 $
+b1001 &
+b1 #
+b1 %
+#20
+0;
+06
+18
+07
+b1 )
+01
+1.
+13
+b1111 !
+b1111 (
+1<
+0"
+1+
+00
+b101 '
+19
+b1010 $
+b1010 &
+b1001 #
+b1001 %
+#30
+17
+11
+1;
+0.
+03
+b111 )
+16
+18
+b1100 !
+b1100 (
+1<
+0+
+10
+b110 '
+14
+09
+b1001 $
+b1001 &
+b101 #
+b101 %
+#50
+0<
+0;
+06
+07
+01
+13
+02
+1.
+b0 )
+0,
+b111 !
+b111 (
+18
+0*
+04
+b0 #
+b0 %
+#60
